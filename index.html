@@ -29,9 +29,9 @@
         }
       </script>
 </head>
-<body class="font-poppings mx-24">
+<body class="font-poppings">
     <!-- header section -->
-     <header class="bg-white">
+     <header class="bg-white mx-auto lg:mx-24">
         <!-- navigation -->
         <div class="navbar bg-base-100">
             <div class="navbar-start">
@@ -82,19 +82,19 @@
             </div>
           </div>
      </header>
-     <main >
+     <main>
       <!-- title section -->
-      <section class="mx-auto">
-      <img class="mx-auto pt-2" src="assets/banner.png" alt="">
+      <section class="lg:mx-auto">
+      <img class="lg:mx-auto pt-2" src="assets/banner.png" alt="">
       <div class="text-center">
-        <h1 class="font-extrabold text-3xl lg:text-6xl">A barn house of this design has a <br>striking appearance</h1>
+        <h1 class="font-extrabold text-2xl lg:text-6xl">A barn house of this design has a <br>striking appearance</h1>
         <p class="pt-6 bannertext">The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal <br>accents, and large windows that flood the space with natural light.</p>
-        <a class="btn mt-8 bg-grass rounded-3xl h-8 w-56 font-bold text-xl">Book Consult <i class="fa-solid fa-arrow-right -rotate-45 text-xl text-white bg-grass rounded-full p-1"></i></a>   
+        <a class="btn mt-8 bg-grass rounded-3xl h-8 w-56 font-bold text-xl">View Details<i class="fa-solid fa-arrow-right -rotate-45 text-xl text-white bg-grass rounded-full p-1"></i></a>   
       </section>
       
       <!-- about section -->
-       <section class="justify-center mx-auto">
-        <img class=" lg:-mb-24 lg:-mr-20" src="assets/Vector.png" alt="">
+       <section class="justify-center mx-auto bg-slate-100">
+        <img class=" lg:-mb-24 lg:ml-28" src="assets/Vector.png" alt="">
         <div class="hero min-h-screen">
          
           <div class="hero-content flex-col lg:flex-row-reverse">
@@ -146,7 +146,7 @@
        </section>
 
        <!-- our works section -->
-        <section class="justify-center lg:mx-auto ">
+        <section class="justify-center mx-auto bg-slate-100">
           <div class="min-h-screen">
             <div class="text-center">
               <div class="mx-auto">
@@ -158,7 +158,7 @@
               </div>
             </div>
             <!-- card-section -->
-             <div class="grid grid-cols-1 lg:grid-cols-4 pt-6">
+             <div class=" ml-12 lg:ml-20 grid grid-cols-1 lg:grid-cols-4 pt-6">
               <div class="card my-5 lg:my-0 bg-pink-200 w-[275px] h-[220px] items-center">
                 <figure class="-ml-48 mt-4">
                   <img class=""
@@ -208,6 +208,51 @@
          </div>
           </div>
         </section>
+
+        <!-- challenge section -->
+         <section>
+         </section>
+        
+        <!-- discussion section -->
+         <section class="justify center mx-auto bg-slate-100">
+          <div class="text-center mx-auto">
+            <button class="btn mt-5 bg-grass bg-opacity-50 rounded-3xl mb-4"> <i class="fa-solid fa-arrow-right"></i>Lets connect</button>
+            <div class="text-center">
+              <h1 class="text-3xl lg:text-5xl font-extrabold" >Let’s Discuss Next Project</h1>
+            <p class="py-6">The barn house captivates with its blend of rustic charm and modern sophistication, <br> featuring weathered wood, sleek metal accents.</p>
+            </div>
+          </div>
+          <!-- input section -->
+          <div class="text-center lg:flex-1">
+            <div class="lg:py-6 px-2 lg:space-x-6">
+              <input type="text" placeholder="First Name*" class="input w-full lg:w-[473px]  rounded-full mb-5"/>
+            <input type="text" placeholder="Last Name*" class="input w-full lg:w-[473px] rounded-full mb-5" />
+            </div>
+            <div class="px-2 lg:space-x-6">
+              <input type="text" placeholder="Phone number*" class="input w-full lg:w-[473px]  rounded-full mb-5" />
+            <input type="text" placeholder="Email*" class="input w-full lg:w-[473px]  rounded-full mb-5" />
+            </div>
+          </div>
+          <div class="text-center py-6">
+            <textarea class="textarea w-full lg:w-[970px] h-[240px] rounded-3xl" placeholder="Write your message here"></textarea>
+          </div>
+         </section>
      </main>
+     <footer class="footer footer-center bg-black text-base-content rounded p-10">
+      <div>
+        <a class="font-bold text-3xl flex gap-3 mx-auto text-white"> <i class="fa-solid fa-arrow-right -rotate-45 text-xl text-black bg-grass rounded-full p-1"></i> Rinterio</a>
+      </div>
+      <p class="text-gray">The barn house captivates with its blend of rustic charm and modern sophistication, <br> featuring weathered wood, sleek metal accents.</p>
+      <nav class="grid grid-flow-col gap-28 text-slate-400">
+        <a class="link link-hover">About us</a>
+        <a class="link link-hover">Contact</a>
+        <a class="link link-hover">Jobs</a>
+        <a class="link link-hover">Press kit</a>
+        <a class="link link-hover">Press kit</a>
+      </nav>
+      <nav>
+        <a class="btn bg-grass rounded-3xl h-8 w-52 font-bold text-xl">Book Consult <i class="fa-solid fa-arrow-right -rotate-45 text-xl text-white bg-black rounded-full p-1"></i></a>
+      </nav>
+    </footer>
 </body>
 </html>
